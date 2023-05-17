@@ -1,6 +1,6 @@
 # creating and deleting dom elements
 Kia ora, this is a helper repo for learning about creating and updating  [DOM](#What-is-the-DOM)
- elements. Our aim is to give you a practicum of creating and deleting DOM elements. We will be using the [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) and [document.removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) methods.
+ elements. Our aim is to give you a practicum of creating and deleting DOM elements. We will be using the [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) and [this.remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove) methods.
 
 ## Getting started
 1. Clone this repo
