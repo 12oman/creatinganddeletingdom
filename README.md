@@ -33,9 +33,9 @@ div.style.backgroundColor = 'red'
 
 3. append it to the body of the document
     
-    ```js
+```js
     document.body.appendChild(div)
-    ```
+```
 4. check that it is there by inspecting the page in the browser
 
 Did that work as expected? If not, why not? What do you think you need to do to make it work?
@@ -63,7 +63,7 @@ We have two files `solution.js` and `button.js`. Feel free to toggle the files i
 
 ## Stretch goals for speedsters
 
-### Can you 
+### Can you?
 1. Add a unique ID to each button: Each time a new button is created, give it a unique ID. This could be a simple counter that increments each time a button is created.
 
 2. Change Button Colors: Create a function that changes the color of the button. The "Create" buttons could be one color, and the "Delete" buttons could be another.
