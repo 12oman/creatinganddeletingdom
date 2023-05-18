@@ -1,10 +1,11 @@
 // Function to create a new button
 function createNewButton() {
+  console.log(this);
   // Create new button
   let newButton = document.createElement("button");
 
   // Randomly decide if the new button is a "Create" button or a "Delete" button
-  if (Math.random() < 0.5) {
+  if (Math.random() < 0.3) {
     newButton.innerHTML = "Create";
     newButton.addEventListener("click", createNewButton);
   } else {
@@ -29,7 +30,7 @@ function createNewButton() {
   // Add the new button to the array
   buttons.push(newButton);
   // console table out the buttons array
-  console.table(buttons);
+  // console.table(buttons);
 }
 
 // Initial button
