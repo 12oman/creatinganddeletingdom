@@ -16,7 +16,7 @@ class Button {
     let gradient = "";
     for (let i = 0; i < 5; i++) {
       let hue = Math.floor(Math.random() * 360);
-      let saturation = Math.floor(Math.random() * 100);
+      let saturation = Math.floor(Math.random() * 30);
       let lightness = Math.floor(Math.random() * 100);
       let alpha = Math.random();
       gradient += `hsla(${hue}, ${saturation}%, ${lightness}%, ${alpha}) ${
